@@ -1,0 +1,26 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+
+    color: white;
+    background: linear-gradient(#0c0c0c, #1e1d1d) fixed;
+    font-family: "Open Sans", sans-serif;
+}
+
+a {
+    color: #1599eb;  
+}
+
+a:hover {
+    filter: brightness(150%);
+}
